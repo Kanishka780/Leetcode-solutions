@@ -7,7 +7,7 @@ public:
             mp[x[0]].insert(x[1]);
         }
 
-        long long ans = 2LL * n;
+        int ans = 2LL * n;
 
         for (auto &[row, seats] : mp) {
 
