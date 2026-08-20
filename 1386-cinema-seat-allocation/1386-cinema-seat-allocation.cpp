@@ -11,9 +11,9 @@ public:
 
         for (auto &[row, seats] : mp) {
 
-            bool left = true;   // 2,3,4,5
-            bool mid = true;    // 4,5,6,7
-            bool right = true;  // 6,7,8,9
+            bool left = true;   
+            bool mid = true;  
+            bool right = true; 
 
             for (int i = 2; i <= 5; i++) {
                 if (seats.count(i)) {
