@@ -14,10 +14,10 @@ public:
             for(int i=0;i<nums.size();i++){
                 if(nums[i]>target){
                     return i;
-                    break;
+                   // break;
                 }
             }
         }
-       return nums.size();
+       return nums.size() ;
     }
 };
